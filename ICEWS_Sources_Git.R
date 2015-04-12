@@ -14,4 +14,4 @@ publishers <- unique(data$Publisher)
 publishers <- set(publishers)
 
 #Save
-write.table(publishers,file='/Users/Zack/Documents/UCSD/Data/ICEWS/ICEWS_ListOfPublishers.csv', sep=',',row.names=FALSE,col.names='Publisher')
+write.table(publishers,file='/Data/ICEWS/ICEWS_ListOfPublishers.csv', sep=',',row.names=FALSE,col.names='Publisher')
