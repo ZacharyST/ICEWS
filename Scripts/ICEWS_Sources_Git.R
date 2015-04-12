@@ -11,7 +11,7 @@ publishers <- data$Publisher
 
 #Take set of publishers
 publishers <- unique(data$Publisher)
-publishers <- sort(publishers)
+publishers <- set(publishers)
 
 #Save
 write.table(publishers,file='/Data/ICEWS/ICEWS_ListOfPublishers.csv', sep=',',row.names=FALSE,col.names='Publisher')
